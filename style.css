@@ -33,3 +33,19 @@ header li a{
 header li a:hover{
     color: #bae6fd;
 }
+
+.header_body{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #FFFF;
+}
+#title{
+    font-size: 48px;
+    font-weight: 900;
+    display: inline-block;
+}
+#sub_text{
+    font-size: 18px;
+    display: inline-block;
+}
