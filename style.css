@@ -37,15 +37,34 @@ header li a:hover{
 .header_body{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     color: #FFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#header_text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
 }
 #title{
     font-size: 48px;
     font-weight: 900;
-    display: inline-block;
 }
 #sub_text{
     font-size: 18px;
-    display: inline-block;
+}
+#mern_logo{
+    width: 400px;
+    height: auto;
+}
+#button{
+    background-color: #3B82F6;
+    color: #FFFF;
+    font-weight: bold;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
 }
