@@ -108,3 +108,27 @@ header li a:hover{
 .project_details a:hover{
     color: #1f2937;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+#quote_text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 600px;
+}
+#author{
+    width: 100%;
+    max-width: 600px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+}
