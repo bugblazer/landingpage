@@ -7,8 +7,10 @@ body{
 }
 
 .logo{
-    width: 50px;
-    cursor: pointer;
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 header{
@@ -131,4 +133,52 @@ header li a:hover{
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
+}
+
+.banner_container{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFF;
+    padding: 50px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #ffff;
+    min-width: 75%;
+    padding: 50px;
+    border-radius: 8px;
+}
+#banner_text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+#banner_heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+#contact{
+    background-color: #3882f6;
+    border: 2px solid #ffff;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 120px;
+    color: #FFFF;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+#contact:hover{
+    background-color: #FFFF;
+    color: #3882f6;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: #1f2937;
+    color: #ffff;
 }
