@@ -39,6 +39,7 @@ header li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #1f2937;
     color: #FFFF;
     padding-top: 30px;
@@ -47,6 +48,8 @@ header li a:hover{
 #header_text{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-right: 30px;
 }
 #title{
@@ -55,6 +58,7 @@ header li a:hover{
 }
 #sub_text{
     font-size: 18px;
+    max-width: 360px;
 }
 #mern_logo{
     width: 400px;
@@ -86,6 +90,7 @@ header li a:hover{
     color: #1f2937;
 }
 .project_cards{
+    flex-wrap: wrap;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -106,6 +111,7 @@ header li a:hover{
 .project_details a{
     text-decoration: none;
     color: #4B5563;
+    transition: all 0.3 ease;
 }
 .project_details a:hover{
     color: #1f2937;
@@ -165,6 +171,7 @@ header li a:hover{
     border-radius: 8px;
     font-weight: bold;
     width: 120px;
+    max-height: 50px;
     color: #FFFF;
     padding: 10px;
     cursor: pointer;
